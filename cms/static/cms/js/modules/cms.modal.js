@@ -186,13 +186,13 @@ $(document).ready(function () {
 				'width': width,
 				'height': height,
 				'margin-left': -(width / 2),
-				'margin-top': -(height / 2)
+				'margin-top': -(height / 4)
 			}, speed, function () {
 				$(this).removeAttr('style');
 
 				that.modal.css({
 					'margin-left': -(width / 2),
-					'margin-top': -(height / 2)
+					'margin-top': -(height / 6)
 				});
 
 				// fade in modal window
